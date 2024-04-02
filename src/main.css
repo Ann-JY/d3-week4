@@ -1,0 +1,56 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.summary {
+  margin-top: 100px;
+  width: 95%;
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summary .b-type {
+  font-size: 18px;
+}
+
+.summary .b-type span {
+  color: #888;
+}
+
+.summary .b-price {
+  margin-top: 3px;
+}
+
+.summary .b-price #price {
+  font-size: 54px;
+  font-weight: 500;
+}
+
+.summary .b-price #unit {
+  font-size: 27px;
+  color: #888;
+  font-weight: 500;
+}
+
+.summary .b-date {
+  font-size: 16px;
+  color: #888;
+  margin-top: 3px;
+}
+
+#svg-container {
+  /* border: 1px solid red; */
+  width: 95%;
+  max-width: 830px;
+  height: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}

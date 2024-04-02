@@ -1,0 +1,19 @@
+#svg {
+  background-color: lightcyan;
+  width: 100%;
+  height: 100%;
+  /* background-color: #f7f7f7; */
+}
+
+.tick {
+  font-size: 15px;
+  color: #888;
+}
+
+.y-axis .domain {
+  display: none;
+}
+
+.y-axis .tick line {
+  stroke: #dfdfdf;
+}
