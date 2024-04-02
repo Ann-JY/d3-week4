@@ -1,5 +1,7 @@
+/* svg 스타일 */
+
 #svg {
-  background-color: lightcyan;
+  background-color: rgb(238, 238, 238);
   width: 100%;
   height: 100%;
   /* background-color: #f7f7f7; */
