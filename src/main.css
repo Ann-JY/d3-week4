@@ -16,28 +16,33 @@
   margin-left: auto;
   margin-right: auto;
 }
-
+/* GLOBAL TEMPERATURE */
 .summary .b-type {
-  font-size: 18px;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .summary .b-type span {
-  color: #888;
+  color: #000000;
 }
 
 .summary .b-price {
   margin-top: 3px;
+  text-align: center;
 }
 
 .summary .b-price #price {
-  font-size: 54px;
+  font-size: 10px;
   font-weight: 500;
 }
-
+/* departure from ~ */
 .summary .b-price #unit {
-  font-size: 27px;
+  font-size: 15px;
   color: #888;
-  font-weight: 500;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .summary .b-date {
@@ -53,4 +58,5 @@
   height: 480px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;
 }
