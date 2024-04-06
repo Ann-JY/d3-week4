@@ -120,7 +120,7 @@ d3.json("data/global-temp-data.json").then((raw_data) => {
     .attr("stroke", "#d21404")
     .attr("stroke-width", 1.5);
 
-  // 두 번째 라인
+  // 두 번째 라인(없음)
   svg
     .append("path")
     .datum(data)
@@ -129,7 +129,7 @@ d3.json("data/global-temp-data.json").then((raw_data) => {
     .attr("stroke", "none")
     .attr("stroke-width", 1);
 
-  // 세 번째 라인
+  // 세 번째 라인(없음)
   svg
     .append("path")
     .datum(data)
@@ -160,7 +160,7 @@ window.addEventListener("resize", () => {
     .call(yAxis);
 });
 
-//여기서부터 이해를 못하겠음
+//여기서부터 이해를 못하겠음...
 window.addEventListener("resize", () => {
   // 기존에 정의된 너비와 높이, 스케일 업데이트
   width = parseInt(d3.select("#svg-container").style("width"));
